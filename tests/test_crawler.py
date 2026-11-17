@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from config import PRIZE_COLUMNS
+from config import PRIZE_COLUMNS, REGIONS
 from crawler import DataValidationError, parse_results_html
 
 FIXTURES = Path(__file__).parent / 'fixtures'
@@ -80,6 +80,23 @@ def test_incorrect_prize_count_fails() -> None:
 def test_empty_or_unrelated_page_fails() -> None:
     with pytest.raises(DataValidationError, match=r'item=result_table.*expected_count=1 actual_count=0'):
         parse_results_html('<html><table class="table-loto"></table></html>', 'xsmn', MONDAY)
+
+
+def test_verified_historical_no_draw_date_accepts_empty_page() -> None:
+    assert parse_results_html('<html><table class="table-loto"></table></html>', 'xsmn', date(2020, 4, 1)) == []
+
+
+def test_historical_schedule_versions_and_covid_overrides() -> None:
+    assert REGIONS['xsmt'].expected_provinces(date(2021, 12, 26)) == ('Khánh Hòa', 'Kon Tum')
+    assert REGIONS['xsmt'].expected_provinces(date(2022, 1, 2)) == ('Khánh Hòa', 'Kon Tum', 'Huế')
+    assert REGIONS['xsmt'].expected_provinces(date(2021, 8, 6)) == ('Gia Lai',)
+    assert REGIONS['xsmn'].expected_provinces(date(2021, 8, 6)) == ()
+
+
+def test_historical_xsmt_special_prize_width() -> None:
+    assert REGIONS['xsmt'].prize_width('special', date(2017, 3, 31)) == 5
+    assert REGIONS['xsmt'].prize_width('special', date(2017, 4, 1)) == 6
+    assert REGIONS['xsmn'].prize_width('special', date(2017, 3, 31)) == 6
 
 
 def test_province_results_are_not_mixed() -> None:

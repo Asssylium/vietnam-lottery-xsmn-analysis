@@ -1,9 +1,10 @@
 from collections import defaultdict
 from collections.abc import Iterable
+from datetime import date
 
 import pandas as pd
 
-from config import NUMBER_OF_PRIZES, PRIZE_COLUMNS, PRIZE_WIDTHS, REGIONS
+from config import NUMBER_OF_PRIZES, PRIZE_COLUMNS, REGIONS
 from dtos import Result
 
 KEY_COLUMNS = ['region', 'province', 'date']
@@ -92,9 +93,12 @@ def validate_dataframes(raw: pd.DataFrame, two_digits: pd.DataFrame, sparse: pd.
     ):
         raise ValueError('duplicate composite key (region, province, date)')
     for column in PRIZE_COLUMNS:
-        width = PRIZE_WIDTHS[column]
-        if not raw[column].str.fullmatch(rf'\d{{{width}}}').all():
-            raise ValueError(f'raw column {column} must contain exactly {width} digits')
+        valid_raw = [
+            value.isdigit() and len(value) == REGIONS[region].prize_width(column, date.fromisoformat(selected_date))
+            for region, selected_date, value in raw[['region', 'date', column]].itertuples(index=False, name=None)
+        ]
+        if not all(valid_raw):
+            raise ValueError(f'raw column {column} contains an invalid historical digit width')
         if not two_digits[column].str.fullmatch(r'\d{2}').all():
             raise ValueError(f'two-digit column {column} must contain exactly 2 digits')
     if not sparse[SPARSE_NUMBER_COLUMNS].sum(axis=1).eq(NUMBER_OF_PRIZES).all():

@@ -39,8 +39,23 @@ class DataValidationError(ValueError):
 
 def parse_results_html(html: str, region: str, selected_date: date) -> list[Result]:
     config = REGIONS[region]
+    expected_provinces = config.expected_provinces(selected_date)
     soup = BeautifulSoup(html, 'lxml')
     tables = soup.select('table.table-result.table-xsmn')
+
+    if not expected_provinces:
+        if tables:
+            raise DataValidationError(
+                region=region,
+                province='*',
+                selected_date=selected_date,
+                item='result_table',
+                expected=0,
+                actual=len(tables),
+                detail='configured no-draw date unexpectedly contains results',
+            )
+        return []
+
     if len(tables) != 1:
         raise DataValidationError(
             region=region,
@@ -53,10 +68,11 @@ def parse_results_html(html: str, region: str, selected_date: date) -> list[Resu
 
     table = tables[0]
     province_names = tuple(header.get_text(' ', strip=True) for header in table.select('thead tr th:not(.name-prize)'))
-    expected_provinces = config.expected_provinces(selected_date)
-    if province_names != expected_provinces:
-        missing = sorted(set(expected_provinces) - set(province_names))
-        unexpected = sorted(set(province_names) - set(expected_provinces))
+    actual_set = set(province_names)
+    expected_set = set(expected_provinces)
+    if actual_set != expected_set or len(actual_set) != len(province_names):
+        missing = sorted(expected_set - actual_set)
+        unexpected = sorted(actual_set - expected_set)
         raise DataValidationError(
             region=region,
             province=','.join(missing or unexpected) or '*',
@@ -90,13 +106,14 @@ def parse_results_html(html: str, region: str, selected_date: date) -> list[Resu
                     actual=len(numbers),
                 )
             for column, number in zip(prize.columns, numbers, strict=True):
-                if not number.isdigit() or len(number) != prize.width:
+                expected_width = config.prize_width(column, selected_date)
+                if not number.isdigit() or len(number) != expected_width:
                     raise DataValidationError(
                         region=region,
                         province=province,
                         selected_date=selected_date,
                         item=column,
-                        expected=prize.width,
+                        expected=expected_width,
                         actual=len(number),
                         detail='digit width',
                     )

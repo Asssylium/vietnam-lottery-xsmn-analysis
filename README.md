@@ -47,7 +47,7 @@ Prize columns, in published order:
 
 | Prize | Columns | Results | Width |
 |---|---|---:|---:|
-| Special | `special` | 1 | 6 |
+| Special | `special` | 1 | 6 (historical XSMT rows through 2017-03-31 use the source's five-digit format) |
 | Prize 1 | `prize1` | 1 | 5 |
 | Prize 2 | `prize2` | 1 | 5 |
 | Prize 3 | `prize3_1`, `prize3_2` | 2 | 5 |
@@ -111,9 +111,16 @@ For the normal overlap update:
 uv run --frozen src/fetch.py --overlap-days 3 --github-repository Asssylium/vietnam-lottery-xsmn-analysis
 ```
 
+For a bounded historical backfill, supply an inclusive range. A small worker count reuses one source session per batch while publication remains all-or-nothing:
+
+```sh
+uv run --frozen src/fetch.py --start-date 2016-11-17 --end-date 2026-11-16 --workers 8 --batch-size 50 --github-repository Asssylium/vietnam-lottery-xsmn-analysis
+```
+
 ## Source limitations
 
 - xoso.com.vn is a third-party HTML source, not an official lottery-company API. Results should be checked against the issuing lottery company for legal or financial use.
 - The parser intentionally fails if the result table, province schedule, prize counts, or digit widths change. This prevents an empty or redesigned page from being published silently.
 - The configured weekday schedule reflects the verified source schedule. Holidays, one-off postponements, renames, and future schedule changes require a reviewed configuration update; the publisher never invents missing province rows.
+- Historical configuration includes XSMT's five-digit special prizes through 2017-03-31, the source-verified 2020 and 2021 suspension dates, reduced-province XSMT draws during 2021, and the addition of Huế to the Sunday XSMT schedule from 2022-01-02.
 - The three-day overlap detects recent corrections. Corrections older than that require a manual historical re-fetch with `--date` or `--start-date`.

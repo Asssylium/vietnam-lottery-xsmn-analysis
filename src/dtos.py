@@ -3,7 +3,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, field_validator
 
-from config import PRIZE_COLUMNS, PRIZE_WIDTHS
+from config import PRIZE_COLUMNS, REGIONS
 
 
 class Result(BaseModel):
@@ -36,7 +36,7 @@ class Result(BaseModel):
     @field_validator(*PRIZE_COLUMNS)
     @classmethod
     def validate_prize(cls, value: str, info) -> str:
-        width = PRIZE_WIDTHS[info.field_name]
+        width = REGIONS[info.data['region']].prize_width(info.field_name, info.data['date'])
         if not isinstance(value, str) or not value.isdigit() or len(value) != width:
             raise ValueError(f'{info.field_name} must contain exactly {width} digits')
         return value
