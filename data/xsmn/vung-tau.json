@@ -12046,5 +12046,29 @@
     "prize6_3":"8429",
     "prize7":"095",
     "prize8":"88"
+  },
+  {
+    "region":"xsmn",
+    "province":"Vũng Tàu",
+    "province_slug":"vung-tau",
+    "date":"2026-11-17",
+    "special":"155264",
+    "prize1":"89616",
+    "prize2":"25546",
+    "prize3_1":"48401",
+    "prize3_2":"16249",
+    "prize4_1":"74264",
+    "prize4_2":"66658",
+    "prize4_3":"27855",
+    "prize4_4":"35943",
+    "prize4_5":"06660",
+    "prize4_6":"23331",
+    "prize4_7":"39342",
+    "prize5":"6112",
+    "prize6_1":"7088",
+    "prize6_2":"6491",
+    "prize6_3":"1552",
+    "prize7":"197",
+    "prize8":"11"
   }
 ]

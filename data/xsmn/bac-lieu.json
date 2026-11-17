@@ -12046,5 +12046,29 @@
     "prize6_3":"9768",
     "prize7":"807",
     "prize8":"82"
+  },
+  {
+    "region":"xsmn",
+    "province":"Bạc Liêu",
+    "province_slug":"bac-lieu",
+    "date":"2026-11-17",
+    "special":"291634",
+    "prize1":"67145",
+    "prize2":"78116",
+    "prize3_1":"06495",
+    "prize3_2":"69000",
+    "prize4_1":"59525",
+    "prize4_2":"90040",
+    "prize4_3":"84791",
+    "prize4_4":"14738",
+    "prize4_5":"37485",
+    "prize4_6":"97622",
+    "prize4_7":"12573",
+    "prize5":"4559",
+    "prize6_1":"2215",
+    "prize6_2":"1663",
+    "prize6_3":"3876",
+    "prize7":"658",
+    "prize8":"52"
   }
 ]
