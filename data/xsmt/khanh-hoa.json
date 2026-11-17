@@ -1,3 +1,26 @@
 [
-
+  {
+    "region":"xsmt",
+    "province":"Khánh Hòa",
+    "province_slug":"khanh-hoa",
+    "date":"2026-11-15",
+    "special":"739437",
+    "prize1":"02627",
+    "prize2":"17472",
+    "prize3_1":"24428",
+    "prize3_2":"67537",
+    "prize4_1":"14982",
+    "prize4_2":"19016",
+    "prize4_3":"76054",
+    "prize4_4":"06288",
+    "prize4_5":"27997",
+    "prize4_6":"79407",
+    "prize4_7":"16333",
+    "prize5":"0244",
+    "prize6_1":"0421",
+    "prize6_2":"1357",
+    "prize6_3":"6647",
+    "prize7":"733",
+    "prize8":"07"
+  }
 ]

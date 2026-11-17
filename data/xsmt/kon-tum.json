@@ -1,3 +1,26 @@
 [
-
+  {
+    "region":"xsmt",
+    "province":"Kon Tum",
+    "province_slug":"kon-tum",
+    "date":"2026-11-15",
+    "special":"340670",
+    "prize1":"80955",
+    "prize2":"21977",
+    "prize3_1":"35230",
+    "prize3_2":"33455",
+    "prize4_1":"33616",
+    "prize4_2":"08931",
+    "prize4_3":"76282",
+    "prize4_4":"04031",
+    "prize4_5":"22337",
+    "prize4_6":"06928",
+    "prize4_7":"49897",
+    "prize5":"0897",
+    "prize6_1":"8332",
+    "prize6_2":"0561",
+    "prize6_3":"4394",
+    "prize7":"979",
+    "prize8":"48"
+  }
 ]

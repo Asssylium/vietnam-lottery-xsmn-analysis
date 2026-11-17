@@ -1,3 +1,26 @@
 [
-
+  {
+    "region":"xsmn",
+    "province":"Tiền Giang",
+    "province_slug":"tien-giang",
+    "date":"2026-11-15",
+    "special":"52",
+    "prize1":"66",
+    "prize2":"49",
+    "prize3_1":"96",
+    "prize3_2":"59",
+    "prize4_1":"25",
+    "prize4_2":"55",
+    "prize4_3":"41",
+    "prize4_4":"61",
+    "prize4_5":"81",
+    "prize4_6":"77",
+    "prize4_7":"66",
+    "prize5":"96",
+    "prize6_1":"54",
+    "prize6_2":"62",
+    "prize6_3":"01",
+    "prize7":"88",
+    "prize8":"34"
+  }
 ]

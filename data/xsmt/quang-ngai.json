@@ -1,3 +1,26 @@
 [
-
+  {
+    "region":"xsmt",
+    "province":"Quảng Ngãi",
+    "province_slug":"quang-ngai",
+    "date":"2026-11-14",
+    "special":"463326",
+    "prize1":"81633",
+    "prize2":"00449",
+    "prize3_1":"23383",
+    "prize3_2":"09300",
+    "prize4_1":"77243",
+    "prize4_2":"48246",
+    "prize4_3":"31004",
+    "prize4_4":"90124",
+    "prize4_5":"17579",
+    "prize4_6":"17222",
+    "prize4_7":"76923",
+    "prize5":"3655",
+    "prize6_1":"1879",
+    "prize6_2":"6020",
+    "prize6_3":"5857",
+    "prize7":"381",
+    "prize8":"66"
+  }
 ]

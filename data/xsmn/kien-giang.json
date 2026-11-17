@@ -1,3 +1,26 @@
 [
-
+  {
+    "region":"xsmn",
+    "province":"Kiên Giang",
+    "province_slug":"kien-giang",
+    "date":"2026-11-15",
+    "special":"727942",
+    "prize1":"79876",
+    "prize2":"27864",
+    "prize3_1":"50753",
+    "prize3_2":"28272",
+    "prize4_1":"02523",
+    "prize4_2":"95219",
+    "prize4_3":"37407",
+    "prize4_4":"54076",
+    "prize4_5":"27711",
+    "prize4_6":"32624",
+    "prize4_7":"72785",
+    "prize5":"2956",
+    "prize6_1":"5327",
+    "prize6_2":"7240",
+    "prize6_3":"3583",
+    "prize7":"177",
+    "prize8":"35"
+  }
 ]
