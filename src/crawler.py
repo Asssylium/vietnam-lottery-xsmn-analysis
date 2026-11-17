@@ -1,7 +1,3 @@
-__author__ = 'Khiem Doan'
-__github__ = 'https://github.com/khiemdoan'
-__email__ = 'doankhiem.crazy@gmail.com'
-
 from contextlib import AbstractContextManager
 from datetime import date
 from typing import Self
@@ -10,19 +6,112 @@ from bs4 import BeautifulSoup
 from cloudscraper import CloudScraper
 from tenacity import retry, retry_if_not_exception_type, stop_after_attempt, wait_exponential
 
+from config import REGIONS, RegionConfig
 from dtos import Result
 
 REQUEST_TIMEOUT = 30
-PRIZE_COUNTS = frozendict({
-    'special-prize': 1,
-    'prize1': 1,
-    'prize2': 2,
-    'prize3': 6,
-    'prize4': 4,
-    'prize5': 6,
-    'prize6': 3,
-    'prize7': 4,
-})
+
+
+class DataValidationError(ValueError):
+    def __init__(
+        self,
+        *,
+        region: str,
+        province: str,
+        selected_date: date,
+        item: str,
+        expected: int,
+        actual: int,
+        detail: str = '',
+    ) -> None:
+        self.region = region
+        self.province = province
+        self.selected_date = selected_date
+        self.item = item
+        self.expected = expected
+        self.actual = actual
+        suffix = f' ({detail})' if detail else ''
+        super().__init__(
+            f'region={region} province={province} date={selected_date.isoformat()} item={item} '
+            f'expected_count={expected} actual_count={actual}{suffix}'
+        )
+
+
+def parse_results_html(html: str, region: str, selected_date: date) -> list[Result]:
+    config = REGIONS[region]
+    soup = BeautifulSoup(html, 'lxml')
+    tables = soup.select('table.table-result.table-xsmn')
+    if len(tables) != 1:
+        raise DataValidationError(
+            region=region,
+            province='*',
+            selected_date=selected_date,
+            item='result_table',
+            expected=1,
+            actual=len(tables),
+        )
+
+    table = tables[0]
+    province_names = tuple(header.get_text(' ', strip=True) for header in table.select('thead tr th:not(.name-prize)'))
+    expected_provinces = config.expected_provinces(selected_date)
+    if province_names != expected_provinces:
+        missing = sorted(set(expected_provinces) - set(province_names))
+        unexpected = sorted(set(province_names) - set(expected_provinces))
+        raise DataValidationError(
+            region=region,
+            province=','.join(missing or unexpected) or '*',
+            selected_date=selected_date,
+            item='province_sections',
+            expected=len(expected_provinces),
+            actual=len(province_names),
+            detail=f'expected={expected_provinces!r} actual={province_names!r}',
+        )
+
+    rows: dict[str, list] = {}
+    for row in table.select('tbody tr'):
+        label = row.find('th')
+        if label is not None:
+            rows[label.get_text(strip=True)] = row.find_all('td', recursive=False)
+
+    results: list[Result] = []
+    for province_index, province in enumerate(province_names):
+        values: dict[str, str] = {}
+        for prize in config.prize_specs:
+            cells = rows.get(prize.source_label, [])
+            cell = cells[province_index] if province_index < len(cells) else None
+            numbers = [] if cell is None else [node.get_text(strip=True) for node in cell.select('span.xs_prize1')]
+            if len(numbers) != prize.count:
+                raise DataValidationError(
+                    region=region,
+                    province=province,
+                    selected_date=selected_date,
+                    item=prize.name,
+                    expected=prize.count,
+                    actual=len(numbers),
+                )
+            for column, number in zip(prize.columns, numbers, strict=True):
+                if not number.isdigit() or len(number) != prize.width:
+                    raise DataValidationError(
+                        region=region,
+                        province=province,
+                        selected_date=selected_date,
+                        item=column,
+                        expected=prize.width,
+                        actual=len(number),
+                        detail='digit width',
+                    )
+                values[column] = number
+
+        results.append(
+            Result(
+                region=region,
+                province=province,
+                province_slug=config.province_slugs[province],
+                date=selected_date,
+                **values,
+            )
+        )
+    return results
 
 
 class Crawler(AbstractContextManager['Crawler']):
@@ -33,69 +122,14 @@ class Crawler(AbstractContextManager['Crawler']):
     def __exit__(self, exc_type, exc_value, traceback) -> None:
         self._http.close()
 
-    @staticmethod
-    def _extract_prizes(soup: BeautifulSoup, css_class: str) -> list[int]:
-        return [int(node.get_text(strip=True)) for node in soup.find_all(class_=css_class)]
-
     @retry(
         stop=stop_after_attempt(5),
         wait=wait_exponential(min=1, max=10),
-        retry=retry_if_not_exception_type(ValueError),
+        retry=retry_if_not_exception_type(DataValidationError),
+        reraise=True,
     )
-    def fetch(self, selected_date: date) -> Result | None:
-        url = f'https://xoso.com.vn/xsmb-{selected_date:%d-%m-%Y}.html'
-        resp = self._http.get(url, timeout=REQUEST_TIMEOUT)
-        if resp.status_code == 404:
-            return None
-        resp.raise_for_status()
-
-        soup = BeautifulSoup(resp.text, 'lxml')
-        prizes = {css_class: self._extract_prizes(soup, css_class) for css_class in PRIZE_COUNTS}
-
-        if not any(prizes.values()):
-            return None
-
-        for css_class, values in prizes.items():
-            expected = PRIZE_COUNTS[css_class]
-            if len(values) != expected:
-                raise ValueError(f'Expected {expected} {css_class} prizes, got {len(values)}')
-
-        special = prizes['special-prize']
-        prize1 = prizes['prize1']
-        prize2 = prizes['prize2']
-        prize3 = prizes['prize3']
-        prize4 = prizes['prize4']
-        prize5 = prizes['prize5']
-        prize6 = prizes['prize6']
-        prize7 = prizes['prize7']
-
-        return Result(
-            date=selected_date,
-            special=special[0],
-            prize1=prize1[0],
-            prize2_1=prize2[0],
-            prize2_2=prize2[1],
-            prize3_1=prize3[0],
-            prize3_2=prize3[1],
-            prize3_3=prize3[2],
-            prize3_4=prize3[3],
-            prize3_5=prize3[4],
-            prize3_6=prize3[5],
-            prize4_1=prize4[0],
-            prize4_2=prize4[1],
-            prize4_3=prize4[2],
-            prize4_4=prize4[3],
-            prize5_1=prize5[0],
-            prize5_2=prize5[1],
-            prize5_3=prize5[2],
-            prize5_4=prize5[3],
-            prize5_5=prize5[4],
-            prize5_6=prize5[5],
-            prize6_1=prize6[0],
-            prize6_2=prize6[1],
-            prize6_3=prize6[2],
-            prize7_1=prize7[0],
-            prize7_2=prize7[1],
-            prize7_3=prize7[2],
-            prize7_4=prize7[3],
-        )
+    def fetch(self, region: str, selected_date: date) -> list[Result]:
+        config: RegionConfig = REGIONS[region]
+        response = self._http.get(config.source_url(selected_date), timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
+        return parse_results_html(response.text, region, selected_date)

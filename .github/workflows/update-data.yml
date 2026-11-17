@@ -3,37 +3,42 @@ name: Update data
 on:
   workflow_dispatch:
   schedule:
-    - cron: 35 11 * * * # 6:35 PM in Vietnam
+    - cron: '0 11 * * *' # 18:00 Asia/Ho_Chi_Minh (UTC+7, no DST)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lottery-data-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   update-data:
-    if: github.repository_owner == 'khiemdoan'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo content
+      - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Install uv
         uses: astral-sh/setup-uv@07a047e608db84b3d8c06cd9a7c7dcc9c355c18e # v10.3.2
 
-      - name: Install dependencies
-        run: uv sync --frozen --no-dev --no-install-project
+      - name: Run fixture-based tests
+        run: uv run --frozen --group testing pytest
 
-      - name: Fetch data
-        run: uv run src/fetch.py
+      - name: Fetch, merge, and publish validated overlap
+        run: uv run --frozen src/fetch.py --overlap-days 3
 
-      - name: Analyze data
-        run: uv run src/analyze.py
+      - name: Validate all generated formats
+        run: uv run --frozen src/validate.py
 
-      - name: Commit changes
+      - name: Commit changed generated data
         run: |
-          if git diff --quiet; then
-            echo "No changes to commit"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No generated data changes"
             exit 0
           fi
-
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add .
-          git commit -m "Updated $(date +'%Y-%m-%d')"
-          git push origin main
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git commit -m "Update lottery data $(date -u +'%Y-%m-%d')"
+          git push

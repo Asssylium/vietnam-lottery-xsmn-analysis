@@ -1,0 +1,1048 @@
+{
+  "schema_version": "1.0.0",
+  "source": "https://xoso.com.vn/",
+  "repository": "Asssylium/vietnam-lottery-xsmn-analysis",
+  "last_update_time": "2026-11-17T07:52:32.673614Z",
+  "regions": [
+    {
+      "region": "xsmn",
+      "name": "Xổ số miền Nam",
+      "prize_count": 18,
+      "schema_version": "1.0.0",
+      "draw_complete_time": "16:45",
+      "first_date": "2026-11-16",
+      "last_date": "2026-11-16",
+      "row_count": 3,
+      "last_update_time": "2026-11-17T07:52:32.673614Z",
+      "feed_urls": {
+        "ordered_prizes": {
+          "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn.csv",
+          "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn.json",
+          "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn.parquet"
+        },
+        "two_digits": {
+          "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn-2-digits.csv",
+          "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn-2-digits.json",
+          "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn-2-digits.parquet"
+        },
+        "sparse": {
+          "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn-sparse.csv",
+          "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn-sparse.json",
+          "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn-sparse.parquet"
+        }
+      },
+      "provinces": [
+        {
+          "region": "xsmn",
+          "province": "TPHCM",
+          "province_slug": "tphcm",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": "2026-11-16",
+          "last_date": "2026-11-16",
+          "row_count": 1,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Đồng Tháp",
+          "province_slug": "dong-thap",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": "2026-11-16",
+          "last_date": "2026-11-16",
+          "row_count": 1,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Cà Mau",
+          "province_slug": "ca-mau",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": "2026-11-16",
+          "last_date": "2026-11-16",
+          "row_count": 1,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Bến Tre",
+          "province_slug": "ben-tre",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Vũng Tàu",
+          "province_slug": "vung-tau",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Bạc Liêu",
+          "province_slug": "bac-lieu",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Đồng Nai",
+          "province_slug": "dong-nai",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Cần Thơ",
+          "province_slug": "can-tho",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Sóc Trăng",
+          "province_slug": "soc-trang",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "An Giang",
+          "province_slug": "an-giang",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Tây Ninh",
+          "province_slug": "tay-ninh",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Bình Thuận",
+          "province_slug": "binh-thuan",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Vĩnh Long",
+          "province_slug": "vinh-long",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Bình Dương",
+          "province_slug": "binh-duong",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Trà Vinh",
+          "province_slug": "tra-vinh",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Long An",
+          "province_slug": "long-an",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Bình Phước",
+          "province_slug": "binh-phuoc",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Hậu Giang",
+          "province_slug": "hau-giang",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Tiền Giang",
+          "province_slug": "tien-giang",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Kiên Giang",
+          "province_slug": "kien-giang",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmn",
+          "province": "Đà Lạt",
+          "province_slug": "da-lat",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat-sparse.parquet"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "region": "xsmt",
+      "name": "Xổ số miền Trung",
+      "prize_count": 18,
+      "schema_version": "1.0.0",
+      "draw_complete_time": "17:45",
+      "first_date": "2026-11-16",
+      "last_date": "2026-11-16",
+      "row_count": 2,
+      "last_update_time": "2026-11-17T07:52:32.673614Z",
+      "feed_urls": {
+        "ordered_prizes": {
+          "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt.csv",
+          "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt.json",
+          "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt.parquet"
+        },
+        "two_digits": {
+          "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt-2-digits.csv",
+          "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt-2-digits.json",
+          "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt-2-digits.parquet"
+        },
+        "sparse": {
+          "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt-sparse.csv",
+          "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt-sparse.json",
+          "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt-sparse.parquet"
+        }
+      },
+      "provinces": [
+        {
+          "region": "xsmt",
+          "province": "Phú Yên",
+          "province_slug": "phu-yen",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": "2026-11-16",
+          "last_date": "2026-11-16",
+          "row_count": 1,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Huế",
+          "province_slug": "hue",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": "2026-11-16",
+          "last_date": "2026-11-16",
+          "row_count": 1,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Đắk Lắk",
+          "province_slug": "dak-lak",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Quảng Nam",
+          "province_slug": "quang-nam",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Đà Nẵng",
+          "province_slug": "da-nang",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Khánh Hòa",
+          "province_slug": "khanh-hoa",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Quảng Bình",
+          "province_slug": "quang-binh",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Bình Định",
+          "province_slug": "binh-dinh",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Quảng Trị",
+          "province_slug": "quang-tri",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Gia Lai",
+          "province_slug": "gia-lai",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Ninh Thuận",
+          "province_slug": "ninh-thuan",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Quảng Ngãi",
+          "province_slug": "quang-ngai",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Đắk Nông",
+          "province_slug": "dak-nong",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong-sparse.parquet"
+            }
+          }
+        },
+        {
+          "region": "xsmt",
+          "province": "Kon Tum",
+          "province_slug": "kon-tum",
+          "prize_count": 18,
+          "schema_version": "1.0.0",
+          "first_date": null,
+          "last_date": null,
+          "row_count": 0,
+          "last_update_time": "2026-11-17T07:52:32.673614Z",
+          "feed_urls": {
+            "ordered_prizes": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum.parquet"
+            },
+            "two_digits": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum-2-digits.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum-2-digits.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum-2-digits.parquet"
+            },
+            "sparse": {
+              "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum-sparse.csv",
+              "json": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum-sparse.json",
+              "parquet": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum-sparse.parquet"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
