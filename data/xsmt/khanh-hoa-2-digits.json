@@ -24766,5 +24766,29 @@
     "prize6_3":"47",
     "prize7":"33",
     "prize8":"07"
+  },
+  {
+    "region":"xsmt",
+    "province":"Khánh Hòa",
+    "province_slug":"khanh-hoa",
+    "date":"2026-11-18",
+    "special":"42",
+    "prize1":"41",
+    "prize2":"68",
+    "prize3_1":"81",
+    "prize3_2":"23",
+    "prize4_1":"79",
+    "prize4_2":"67",
+    "prize4_3":"41",
+    "prize4_4":"14",
+    "prize4_5":"56",
+    "prize4_6":"70",
+    "prize4_7":"39",
+    "prize5":"03",
+    "prize6_1":"76",
+    "prize6_2":"68",
+    "prize6_3":"78",
+    "prize7":"71",
+    "prize8":"27"
   }
 ]

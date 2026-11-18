@@ -12046,5 +12046,29 @@
     "prize6_3":"1951",
     "prize7":"395",
     "prize8":"14"
+  },
+  {
+    "region":"xsmn",
+    "province":"Sóc Trăng",
+    "province_slug":"soc-trang",
+    "date":"2026-11-18",
+    "special":"687333",
+    "prize1":"41374",
+    "prize2":"13418",
+    "prize3_1":"89048",
+    "prize3_2":"30197",
+    "prize4_1":"20383",
+    "prize4_2":"14344",
+    "prize4_3":"54219",
+    "prize4_4":"52314",
+    "prize4_5":"95708",
+    "prize4_6":"69154",
+    "prize4_7":"93185",
+    "prize5":"5487",
+    "prize6_1":"1836",
+    "prize6_2":"4252",
+    "prize6_3":"0499",
+    "prize7":"164",
+    "prize8":"45"
   }
 ]
