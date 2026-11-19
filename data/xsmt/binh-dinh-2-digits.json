@@ -12430,5 +12430,29 @@
     "prize6_3":"81",
     "prize7":"40",
     "prize8":"39"
+  },
+  {
+    "region":"xsmt",
+    "province":"Bình Định",
+    "province_slug":"binh-dinh",
+    "date":"2026-11-19",
+    "special":"93",
+    "prize1":"54",
+    "prize2":"76",
+    "prize3_1":"40",
+    "prize3_2":"92",
+    "prize4_1":"00",
+    "prize4_2":"19",
+    "prize4_3":"13",
+    "prize4_4":"59",
+    "prize4_5":"74",
+    "prize4_6":"26",
+    "prize4_7":"17",
+    "prize5":"00",
+    "prize6_1":"50",
+    "prize6_2":"98",
+    "prize6_3":"76",
+    "prize7":"38",
+    "prize8":"66"
   }
 ]

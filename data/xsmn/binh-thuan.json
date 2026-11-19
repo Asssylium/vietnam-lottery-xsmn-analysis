@@ -12070,5 +12070,29 @@
     "prize6_3":"7548",
     "prize7":"251",
     "prize8":"77"
+  },
+  {
+    "region":"xsmn",
+    "province":"Bình Thuận",
+    "province_slug":"binh-thuan",
+    "date":"2026-11-19",
+    "special":"005163",
+    "prize1":"52828",
+    "prize2":"03664",
+    "prize3_1":"88267",
+    "prize3_2":"96666",
+    "prize4_1":"57811",
+    "prize4_2":"60774",
+    "prize4_3":"12347",
+    "prize4_4":"03698",
+    "prize4_5":"03039",
+    "prize4_6":"78363",
+    "prize4_7":"27859",
+    "prize5":"1325",
+    "prize6_1":"0973",
+    "prize6_2":"7616",
+    "prize6_3":"3760",
+    "prize7":"686",
+    "prize8":"83"
   }
 ]

@@ -12430,5 +12430,29 @@
     "prize6_3":"9587",
     "prize7":"769",
     "prize8":"49"
+  },
+  {
+    "region":"xsmt",
+    "province":"Quảng Bình",
+    "province_slug":"quang-binh",
+    "date":"2026-11-19",
+    "special":"903587",
+    "prize1":"05480",
+    "prize2":"70165",
+    "prize3_1":"49276",
+    "prize3_2":"32594",
+    "prize4_1":"13216",
+    "prize4_2":"65048",
+    "prize4_3":"04053",
+    "prize4_4":"11324",
+    "prize4_5":"34034",
+    "prize4_6":"92949",
+    "prize4_7":"02887",
+    "prize5":"1093",
+    "prize6_1":"1413",
+    "prize6_2":"0677",
+    "prize6_3":"4968",
+    "prize7":"072",
+    "prize8":"02"
   }
 ]

@@ -12070,5 +12070,29 @@
     "prize6_3":"04",
     "prize7":"42",
     "prize8":"10"
+  },
+  {
+    "region":"xsmn",
+    "province":"Tây Ninh",
+    "province_slug":"tay-ninh",
+    "date":"2026-11-19",
+    "special":"92",
+    "prize1":"99",
+    "prize2":"61",
+    "prize3_1":"22",
+    "prize3_2":"93",
+    "prize4_1":"95",
+    "prize4_2":"21",
+    "prize4_3":"50",
+    "prize4_4":"16",
+    "prize4_5":"15",
+    "prize4_6":"28",
+    "prize4_7":"39",
+    "prize5":"00",
+    "prize6_1":"26",
+    "prize6_2":"25",
+    "prize6_3":"02",
+    "prize7":"77",
+    "prize8":"71"
   }
 ]
