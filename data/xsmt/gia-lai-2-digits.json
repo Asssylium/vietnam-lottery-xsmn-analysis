@@ -12454,5 +12454,29 @@
     "prize6_3":"28",
     "prize7":"79",
     "prize8":"60"
+  },
+  {
+    "region":"xsmt",
+    "province":"Gia Lai",
+    "province_slug":"gia-lai",
+    "date":"2026-11-20",
+    "special":"79",
+    "prize1":"13",
+    "prize2":"49",
+    "prize3_1":"09",
+    "prize3_2":"54",
+    "prize4_1":"05",
+    "prize4_2":"93",
+    "prize4_3":"48",
+    "prize4_4":"49",
+    "prize4_5":"76",
+    "prize4_6":"14",
+    "prize4_7":"89",
+    "prize5":"36",
+    "prize6_1":"42",
+    "prize6_2":"47",
+    "prize6_3":"44",
+    "prize7":"59",
+    "prize8":"32"
   }
 ]

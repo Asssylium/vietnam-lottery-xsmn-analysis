@@ -12070,5 +12070,29 @@
     "prize6_3":"4641",
     "prize7":"520",
     "prize8":"05"
+  },
+  {
+    "region":"xsmn",
+    "province":"Vĩnh Long",
+    "province_slug":"vinh-long",
+    "date":"2026-11-20",
+    "special":"816801",
+    "prize1":"42273",
+    "prize2":"82658",
+    "prize3_1":"58684",
+    "prize3_2":"89991",
+    "prize4_1":"11375",
+    "prize4_2":"58071",
+    "prize4_3":"93345",
+    "prize4_4":"56217",
+    "prize4_5":"58805",
+    "prize4_6":"76156",
+    "prize4_7":"42095",
+    "prize5":"2923",
+    "prize6_1":"7630",
+    "prize6_2":"9187",
+    "prize6_3":"4063",
+    "prize7":"301",
+    "prize8":"65"
   }
 ]
