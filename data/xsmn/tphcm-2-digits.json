@@ -24142,5 +24142,29 @@
     "prize6_3":"17",
     "prize7":"75",
     "prize8":"96"
+  },
+  {
+    "region":"xsmn",
+    "province":"TPHCM",
+    "province_slug":"tphcm",
+    "date":"2026-11-21",
+    "special":"25",
+    "prize1":"65",
+    "prize2":"29",
+    "prize3_1":"65",
+    "prize3_2":"73",
+    "prize4_1":"68",
+    "prize4_2":"52",
+    "prize4_3":"60",
+    "prize4_4":"29",
+    "prize4_5":"24",
+    "prize4_6":"00",
+    "prize4_7":"68",
+    "prize5":"90",
+    "prize6_1":"89",
+    "prize6_2":"06",
+    "prize6_3":"14",
+    "prize7":"56",
+    "prize8":"91"
   }
 ]
