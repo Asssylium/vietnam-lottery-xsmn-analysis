@@ -12070,5 +12070,29 @@
     "prize6_3":"8201",
     "prize7":"788",
     "prize8":"34"
+  },
+  {
+    "region":"xsmn",
+    "province":"Tiền Giang",
+    "province_slug":"tien-giang",
+    "date":"2026-11-22",
+    "special":"382164",
+    "prize1":"99835",
+    "prize2":"93836",
+    "prize3_1":"73525",
+    "prize3_2":"28612",
+    "prize4_1":"94950",
+    "prize4_2":"15012",
+    "prize4_3":"01161",
+    "prize4_4":"69249",
+    "prize4_5":"06487",
+    "prize4_6":"21002",
+    "prize4_7":"15970",
+    "prize5":"6503",
+    "prize6_1":"6641",
+    "prize6_2":"1128",
+    "prize6_3":"3921",
+    "prize7":"740",
+    "prize8":"66"
   }
 ]
