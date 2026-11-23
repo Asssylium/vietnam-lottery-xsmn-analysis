@@ -12070,5 +12070,29 @@
     "prize6_3":"1539",
     "prize7":"552",
     "prize8":"60"
+  },
+  {
+    "region":"xsmn",
+    "province":"Cà Mau",
+    "province_slug":"ca-mau",
+    "date":"2026-11-23",
+    "special":"038351",
+    "prize1":"45127",
+    "prize2":"66939",
+    "prize3_1":"42189",
+    "prize3_2":"30269",
+    "prize4_1":"06379",
+    "prize4_2":"06185",
+    "prize4_3":"18652",
+    "prize4_4":"86941",
+    "prize4_5":"83867",
+    "prize4_6":"56337",
+    "prize4_7":"58909",
+    "prize5":"8733",
+    "prize6_1":"3957",
+    "prize6_2":"8916",
+    "prize6_3":"5257",
+    "prize7":"073",
+    "prize8":"18"
   }
 ]
