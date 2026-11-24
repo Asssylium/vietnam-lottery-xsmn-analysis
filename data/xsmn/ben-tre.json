@@ -12070,5 +12070,29 @@
     "prize6_3":"7283",
     "prize7":"397",
     "prize8":"02"
+  },
+  {
+    "region":"xsmn",
+    "province":"Bến Tre",
+    "province_slug":"ben-tre",
+    "date":"2026-11-24",
+    "special":"930332",
+    "prize1":"09501",
+    "prize2":"65318",
+    "prize3_1":"14712",
+    "prize3_2":"77664",
+    "prize4_1":"35425",
+    "prize4_2":"92297",
+    "prize4_3":"45727",
+    "prize4_4":"92673",
+    "prize4_5":"39389",
+    "prize4_6":"18468",
+    "prize4_7":"34870",
+    "prize5":"9899",
+    "prize6_1":"6502",
+    "prize6_2":"6004",
+    "prize6_3":"7914",
+    "prize7":"753",
+    "prize8":"61"
   }
 ]
