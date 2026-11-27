@@ -12454,5 +12454,29 @@
     "prize6_3":"0584",
     "prize7":"757",
     "prize8":"39"
+  },
+  {
+    "region":"xsmt",
+    "province":"Ninh Thuận",
+    "province_slug":"ninh-thuan",
+    "date":"2026-11-27",
+    "special":"276068",
+    "prize1":"43889",
+    "prize2":"50095",
+    "prize3_1":"98539",
+    "prize3_2":"10294",
+    "prize4_1":"08228",
+    "prize4_2":"91576",
+    "prize4_3":"87917",
+    "prize4_4":"34959",
+    "prize4_5":"13417",
+    "prize4_6":"78340",
+    "prize4_7":"82670",
+    "prize5":"7027",
+    "prize6_1":"5191",
+    "prize6_2":"5657",
+    "prize6_3":"1754",
+    "prize7":"810",
+    "prize8":"07"
   }
 ]

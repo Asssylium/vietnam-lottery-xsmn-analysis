@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "source": "https://xoso.com.vn/",
   "repository": "Asssylium/vietnam-lottery-xsmn-analysis",
-  "last_update_time": "2026-11-26T19:57:37.691256Z",
+  "last_update_time": "2026-11-27T19:47:22.498391Z",
   "regions": [
     {
       "region": "xsmn",
@@ -11,9 +11,9 @@
       "schema_version": "1.0.0",
       "draw_complete_time": "16:45",
       "first_date": "2016-11-17",
-      "last_date": "2026-11-26",
-      "row_count": 11091,
-      "last_update_time": "2026-11-26T19:57:37.691256Z",
+      "last_date": "2026-11-27",
+      "row_count": 11094,
+      "last_update_time": "2026-11-27T19:47:22.498391Z",
       "feed_urls": {
         "ordered_prizes": {
           "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn.csv",
@@ -41,7 +41,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-23",
           "row_count": 1008,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tphcm.csv",
@@ -69,7 +69,7 @@
           "first_date": "2016-11-21",
           "last_date": "2026-11-23",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-thap.csv",
@@ -97,7 +97,7 @@
           "first_date": "2016-11-21",
           "last_date": "2026-11-23",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ca-mau.csv",
@@ -125,7 +125,7 @@
           "first_date": "2016-11-22",
           "last_date": "2026-11-24",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/ben-tre.csv",
@@ -153,7 +153,7 @@
           "first_date": "2016-11-22",
           "last_date": "2026-11-24",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vung-tau.csv",
@@ -181,7 +181,7 @@
           "first_date": "2016-11-22",
           "last_date": "2026-11-24",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/bac-lieu.csv",
@@ -209,7 +209,7 @@
           "first_date": "2016-11-23",
           "last_date": "2026-11-25",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/dong-nai.csv",
@@ -237,7 +237,7 @@
           "first_date": "2016-11-23",
           "last_date": "2026-11-25",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/can-tho.csv",
@@ -265,7 +265,7 @@
           "first_date": "2016-11-23",
           "last_date": "2026-11-25",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/soc-trang.csv",
@@ -293,7 +293,7 @@
           "first_date": "2016-11-17",
           "last_date": "2026-11-26",
           "row_count": 505,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/an-giang.csv",
@@ -321,7 +321,7 @@
           "first_date": "2016-11-17",
           "last_date": "2026-11-26",
           "row_count": 505,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tay-ninh.csv",
@@ -349,7 +349,7 @@
           "first_date": "2016-11-17",
           "last_date": "2026-11-26",
           "row_count": 505,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-thuan.csv",
@@ -375,9 +375,9 @@
           "prize_count": 18,
           "schema_version": "1.0.0",
           "first_date": "2016-11-18",
-          "last_date": "2026-11-20",
-          "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_date": "2026-11-27",
+          "row_count": 505,
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/vinh-long.csv",
@@ -403,9 +403,9 @@
           "prize_count": 18,
           "schema_version": "1.0.0",
           "first_date": "2016-11-18",
-          "last_date": "2026-11-20",
-          "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_date": "2026-11-27",
+          "row_count": 505,
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-duong.csv",
@@ -431,9 +431,9 @@
           "prize_count": 18,
           "schema_version": "1.0.0",
           "first_date": "2016-11-18",
-          "last_date": "2026-11-20",
-          "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_date": "2026-11-27",
+          "row_count": 505,
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tra-vinh.csv",
@@ -461,7 +461,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-21",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/long-an.csv",
@@ -489,7 +489,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-21",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/binh-phuoc.csv",
@@ -517,7 +517,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-21",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/hau-giang.csv",
@@ -545,7 +545,7 @@
           "first_date": "2016-11-20",
           "last_date": "2026-11-22",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/tien-giang.csv",
@@ -573,7 +573,7 @@
           "first_date": "2016-11-20",
           "last_date": "2026-11-22",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/kien-giang.csv",
@@ -601,7 +601,7 @@
           "first_date": "2016-11-20",
           "last_date": "2026-11-22",
           "row_count": 504,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmn/da-lat.csv",
@@ -629,9 +629,9 @@
       "schema_version": "1.0.0",
       "draw_complete_time": "17:45",
       "first_date": "2016-11-17",
-      "last_date": "2026-11-26",
-      "row_count": 8552,
-      "last_update_time": "2026-11-26T19:57:37.691256Z",
+      "last_date": "2026-11-27",
+      "row_count": 8554,
+      "last_update_time": "2026-11-27T19:47:22.498391Z",
       "feed_urls": {
         "ordered_prizes": {
           "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt.csv",
@@ -659,7 +659,7 @@
           "first_date": "2016-11-21",
           "last_date": "2026-11-23",
           "row_count": 519,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/phu-yen.csv",
@@ -687,7 +687,7 @@
           "first_date": "2016-11-21",
           "last_date": "2026-11-23",
           "row_count": 775,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/hue.csv",
@@ -715,7 +715,7 @@
           "first_date": "2016-11-22",
           "last_date": "2026-11-24",
           "row_count": 518,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-lak.csv",
@@ -743,7 +743,7 @@
           "first_date": "2016-11-22",
           "last_date": "2026-11-24",
           "row_count": 520,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-nam.csv",
@@ -771,7 +771,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-25",
           "row_count": 1033,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/da-nang.csv",
@@ -799,7 +799,7 @@
           "first_date": "2016-11-20",
           "last_date": "2026-11-25",
           "row_count": 1035,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/khanh-hoa.csv",
@@ -827,7 +827,7 @@
           "first_date": "2016-11-17",
           "last_date": "2026-11-26",
           "row_count": 520,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-binh.csv",
@@ -855,7 +855,7 @@
           "first_date": "2016-11-17",
           "last_date": "2026-11-26",
           "row_count": 520,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/binh-dinh.csv",
@@ -883,7 +883,7 @@
           "first_date": "2016-11-17",
           "last_date": "2026-11-26",
           "row_count": 520,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-tri.csv",
@@ -909,9 +909,9 @@
           "prize_count": 18,
           "schema_version": "1.0.0",
           "first_date": "2016-11-18",
-          "last_date": "2026-11-20",
-          "row_count": 520,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_date": "2026-11-27",
+          "row_count": 521,
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/gia-lai.csv",
@@ -937,9 +937,9 @@
           "prize_count": 18,
           "schema_version": "1.0.0",
           "first_date": "2016-11-18",
-          "last_date": "2026-11-20",
-          "row_count": 519,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_date": "2026-11-27",
+          "row_count": 520,
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/ninh-thuan.csv",
@@ -967,7 +967,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-21",
           "row_count": 517,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/quang-ngai.csv",
@@ -995,7 +995,7 @@
           "first_date": "2016-11-19",
           "last_date": "2026-11-21",
           "row_count": 518,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/dak-nong.csv",
@@ -1023,7 +1023,7 @@
           "first_date": "2016-11-20",
           "last_date": "2026-11-22",
           "row_count": 518,
-          "last_update_time": "2026-11-26T19:57:37.691256Z",
+          "last_update_time": "2026-11-27T19:47:22.498391Z",
           "feed_urls": {
             "ordered_prizes": {
               "csv": "https://raw.githubusercontent.com/Asssylium/vietnam-lottery-xsmn-analysis/refs/heads/main/data/xsmt/kon-tum.csv",
